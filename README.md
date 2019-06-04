@@ -18,7 +18,7 @@ included Dockerfile.
 
 Enter the folder containing this file
 
-```$ cd walle-finds-Eve```
+```$ cd walle-finds-eve```
 
 Build the Docker Image
 
