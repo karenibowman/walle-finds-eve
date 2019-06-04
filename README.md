@@ -18,12 +18,16 @@ included Dockerfile.
 
 Enter the folder containing this file
 
-$ cd walle-finds-Eve
+```$ cd walle-finds-Eve```
 
 Build the Docker Image
 
-$ docker build --tag=wallefindseve .
+```$ docker build --tag=wallefindseve .```
 
 Run the server on port 3000
 
-$ docker run -p 3000:3000 wallefindseve
+```$ docker run -p 3000:3000 wallefindseve```
+
+If you wish to use it, there is a Python3 test client. It is not run in the Docker container, but externally.
+
+```$ python3 client/test.py ```
